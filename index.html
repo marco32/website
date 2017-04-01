@@ -10,6 +10,12 @@
   
 
 </head>
+
+
+  <div class="audio" >
+    <audio src="sonsite.mp3" autoplay controls="controls"></audio>
+  </div>
+
 <div id="open" class="fixed-action-btn">
   <a id="menu" class="btn btn-floating pulse btn-large cyan"><i class="material-icons">menu</i></a>
   <div  class="tap-target white" data-activates="menu" >
@@ -47,13 +53,21 @@
     <div>Nous proposons nos services pour le developpement de projet pédagogique aux entreprises, établissements scolaire. N'hésitez pas a nous contacter.</div>
   </article>
   <article class="col s6" >
-    <img src="nous.jpg" alt="Photo"/>
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img class="image" src="nous.jpg" alt="Photo"/></a>
+      <a class="carousel-item" href="#two!"><img class="image" src="nous.jpg" alt="Photo"/></a>
+      <a class="carousel-item" href="#three!"><img class="image" src="nous.jpg" alt="Photo"/></a>
+      <a class="carousel-item" href="#four!"><img class="image" src="nous.jpg" alt="Photo"/></a>
+    </div>
   </article>
 </section >
 <section class="row">
   <h5>Nos partenaires</h5>
-  <img class="z-depth-5 part" src="region.png" alt="région occitanie" />
-  <img class="z-depth-5 part" src="lmifox.png" alt="societe LMI and FOX"/>
+
+  <div class="container">
+    <img class="z-depth-5 part" src="region.png" alt="région occitanie" />
+    <img class="z-depth-5 part" src="lmifox.png" alt="societe LMI and FOX"/>
+  </div>
 </section>
 <section class="row">
   <h4>Parrain</h4>
@@ -61,7 +75,17 @@
 </section>
 </main>
 <footer>
-
+<div class="row container">
+  <div class="col s4">
+    
+  </div>
+  <div class="col s4">
+    <div>Site créé par la promotion AUCH</div>
+  </div>
+  <div class="col s4">
+    
+  </div>
+</div>
 </footer>
 <body>
   <script src="jquery.js"></script>

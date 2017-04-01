@@ -24,3 +24,13 @@ header {
 h5 {
 	text-decoration: underline;
 }
+.audio {
+  position: fixed;
+  left: 1px;
+  bottom: 1px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+.video-container {
+	z-index: 1000;
+}
